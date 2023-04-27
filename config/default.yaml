@@ -1,0 +1,23 @@
+---
+api: 
+  idenfier: produts-backend
+  port: "2000"
+
+logger:
+  options:
+    level: trace
+
+mongodb:
+  url: 'mongodb://127.0.0.1:27017/produts'
+  database: 'produts'
+  schema: mongodb
+  hostname: '127.0.0.1'
+  port: '27017'
+  timeout: '5000'
+  options:
+    user: ''
+    pass: ''
+    authSource: 'admin'
+    dbName: 'produts'
+    useUnifiedTopology: true
+    useNewUrlParser: true
